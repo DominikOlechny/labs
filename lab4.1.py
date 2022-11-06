@@ -18,3 +18,6 @@ elif x3 in lista2:
     print("liczb wystepuje w lista2")
 else:
     print("nie ma w obu")
+lista1_2 = lista1 + lista2
+lista1_2.sort()
+print(lista1_2)
